@@ -12870,7 +12870,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       isCompiling: true
     }, async () => {
       try {
-        await new Promise(resolve => setTimeout(resolve, randomIntFromInterval(300, 600)));
+        await new Promise(resolve => setTimeout(resolve, randomIntFromInterval(200, 250)));
         // Execute the compilation
         await compileToScratch();
       } catch (e) {
