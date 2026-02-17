@@ -33484,7 +33484,7 @@ module.exports = function (css) {
  * same logic and follow the same code paths.
  */
 
-var __DEV__ = "" !== 'production';
+var __DEV__ = "undefined" !== 'production';
 
 var warning = function() {};
 
